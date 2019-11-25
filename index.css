@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+.icon {
+  height: 1em;
+  width: 1em;
+  object-fit: cover;
+}
+
+#divLeft {
+  display: block;
+  float: left;
+  width: 50%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#divRight {
+  display: block;
+  float: right;
+  width: 50%;
+}
+
+.team {
+  letter-spacing: 0.5em;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  margin-top: 3em;
+}
+
+.header {
+  background-color: black;
+  color: whitesmoke;
+  height: 15%;
+  padding: 1em;
+  font-family: 'Quicksand', sans-serif;
+}
