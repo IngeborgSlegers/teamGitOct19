@@ -1,8 +1,9 @@
 body {
   text-align: center;
-
+  background-color:purple;
   background-color: #009ba6;
-background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  transform: rotate(180deg);
 }
 
 
@@ -32,6 +33,7 @@ background-image: url("https://www.transparenttextures.com/patterns/food.png");
 ul li {
   list-style-type: none;
   font-size: 2em;
+  transform: rotate(180deg);
   /* font-family: cheap-pine, sans-serif; */
 }
 
