@@ -1,11 +1,13 @@
 body {
   text-align: center;
+  transform: rotate(180deg);
 }
 
 .icon {
   height: 1em;
   width: 1em;
   object-fit: cover;
+  transform: rotate(180deg);
 }
 
 #divLeft {
@@ -13,12 +15,14 @@ body {
   float: left;
   width: 50%;
   font-family: 'Quicksand', sans-serif;
+  transform: rotate(180deg);
 }
 
 #divRight {
   display: block;
   float: right;
   width: 50%;
+  transform: rotate(180deg);
 }
 
 .team {
@@ -28,6 +32,7 @@ body {
 ul li {
   list-style-type: none;
   font-size: 2em;
+  transform: rotate(180deg);
 }
 
 ul {
