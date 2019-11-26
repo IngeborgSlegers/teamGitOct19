@@ -1,5 +1,8 @@
 body {
   text-align: center;
+  background-color: #009ba6;
+background-image: url("https://www.transparenttextures.com/patterns/food.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .icon {
@@ -28,11 +31,13 @@ body {
 ul li {
   list-style-type: none;
   font-size: 2em;
+  /* font-family: cheap-pine, sans-serif; */
 }
 
 ul {
   margin-top: 3em;
 }
+
 
 .header {
   background-color: black;
@@ -53,4 +58,9 @@ ul {
 .topnav a:hover {
   background-color: #ddd;
   color: red;
+}
+
+#tacoText {
+  font-family: cursive;
+  color: orange;
 }
